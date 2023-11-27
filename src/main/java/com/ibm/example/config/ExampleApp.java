@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 import com.ibm.example.rest.Hello;
 
 @SpringBootApplication
-@ComponentScan(basePackageClasses =Hello.class)
+@ComponentScan(basePackageClasses=Hello.class)
 public class ExampleApp {
 
 	public static void main(String... args) {
