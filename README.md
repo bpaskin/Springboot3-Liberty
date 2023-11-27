@@ -21,9 +21,13 @@ mvn clean package
 4. copy the compiled application to the Liberty dropins
 ```
 cp target/SB3Example-1.0.0.jar wlp/usr/servers/sb3/dropins/spring/
+``
+5. Copy the server.xml to server directory
 ```
-5. start the application server
+cp liberty/server.xml wlp/usr/server/sb3/
+```
+6. start the application server
 ```
 wlp/bin/server start sb3
 ```
-6. in a browser go to [http://localhost:9080/swagger-ui/index.html](http://localhost:9080/swagger-ui/index.html)
+7. in a browser go to [http://localhost:9080/swagger-ui/index.html](http://localhost:9080/swagger-ui/index.html)
